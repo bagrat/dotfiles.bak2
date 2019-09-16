@@ -38,6 +38,8 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 
 for f in split(glob($DOTFILES . '/vim/config/*.vim'), '\n')
