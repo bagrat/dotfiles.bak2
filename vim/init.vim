@@ -38,6 +38,9 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
+Plug 'elixir-editors/vim-elixir'
+Plug 'mhinz/vim-mix-format'
+
 Plug 'mattn/emmet-vim'
 
 call plug#end()
